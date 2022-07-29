@@ -1,64 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zizi labor</title>
+    <title>Első honlapom</title>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&family=Inconsolata:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <table>
-        <caption>
-            Nyitvatartás
-        </caption>
-        <thead>
-            <tr>
-                <th>Napok</th>
-                <th>Idő</th>
-            </tr>
-        </thead>
+    <header>
+        <div class="container">
+            <a href="/" class="logo-link"><img src="assets/aperture.svg" alt="logo" /></a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="https://en.wikipedia.org/wiki/Technology" target="_blank">Wiki</a></li>
+                    <li><a href="https://github.com/" target="_blank">Github</a></li>
+                    <li><a href="https://www.linkedin.com/" target="_blank">Linkedin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-        <tbody>
+    <main>
+        <section>
+            <div class="container">
+                <h1>Csécsei Tibor</h1>
+                <h2 class="color-pink">junior rendszerüzemeltető</h2>
+                <p>
+                    Szeretek új dolgokat megismerni és új készségekre szert tenni. Gyerekkorom óta érdekel az IT
+                    világa.
+                </p>
+                <p>
+                    A fő célom, hogy a lehető legtöbb ismeretet szedjem össze a junior rendszerüzemeltető képzés
+                    során.
+                </p>
+            </div>
+        </section>
 
+        <section class="section-separator">
+            <div class="text-center">
+                <h3>- - -</h3>
+            </div>
+        </section>
 
+        <section>
+            <div class="container">
+                <h2 class="text-center">Technology Wiki</h2>
+                <article>
+                    <h4>Logikai kapu</h4>
+                    <p>
+                        Egy olyan idealizált vagy fizikai eszköz ami logikai alapmüveletet valósít meg egy vagy több
+                        bináris bemeneten és produkál egy bináris kimenetet.
+                    </p>
 
+                    <h4>ASCII</h4>
+                    <p>
+                        As angol neve American Standard Code for Information Interchange. A számítógépek csak a számokat
+                        értik, így a 'a' vagy '@' karakterek értelmezéséhez szükséges számosított értékeket írja le.
+                    </p>
 
-            <tr>
-                <td>Hétfő - Péntek</td>
-                <td>9:00</td>
-                <td rowspan="2">12:00</td>
-            </tr>
+                    <h4>RAM</h4>
+                    <p>
+                        Egy véletlen elérésű írható-olvasható adattároló eszköz. Tárolja a CPU által végrehajtandó
+                        programokat és a feldolgozásra váró adatokat. Egy adott memóriarész elérésének gyorsasága
+                        független az elhelyezkedésétől.
+                    </p>
 
-            <tr>
-                <td>Szomban</td>
-                <td>9:00</td>
-                
-            </tr>
+                    <h4>Programkód</h4>
+                    <p>
+                        A számítástechnikában használt olyan, az ember által olvasható és értelmezhető utasítások
+                        sorozata, amivel közvetlenül, vagy közvetve (például: gépi kódra fordítás után) közölhetjük a
+                        számítógéppel egy adott feladat elvégzésének módját.
+                    </p>
 
-            <tr>
-                <td>Vasárnap</td>
-                <td colspan="2" rowspan="2">zárva</td>
-                
-            </tr>
+                    <h4>DNS (Domain Name System)</h4>
+                    <p>
+                        Egy hierarchikus, nagymértékben decentralizált elnevezési rendszer számítógépek, szolgáltatások,
+                        illetve az internetre vagy egy magánhálózatra kötött bármilyen erőforrás számára.
+                    </p>
 
-        </tbody>
-
-        <tfoot>
-            <tr>
-                <td>Vége</td>
-            </tr>
-        </tfoot>
-
-
-
-    </table>
-
-
-
-
-
+                    <h4>HTTP</h4>
+                    <p>
+                        Egy alkalmazás protokol elosztott, együttműködő és hipermédiás információs rendszerek részére. A
+                        World Wide Web adat kommunikációjának alapja. Ez az alapvető protokol a hypertext cseréjére és
+                        mozgatására.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>

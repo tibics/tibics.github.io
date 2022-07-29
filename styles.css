@@ -1,0 +1,109 @@
+body {
+    background-image: url(assets/topography.webp);
+    background-repeat: repeat;
+    margin: 0;
+    font-family: 'Inconsolata', monospace;
+    font-size: 16px;
+}
+
+header {
+    background-color: #333;
+    height: 70px;
+}
+
+header .container {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+}
+
+header .logo-link {
+    display: flex;
+}
+
+header .logo-link img {
+    width: 32px;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    margin-right: 50px;
+}
+
+header li:last-child {
+    margin-right: 0;
+}
+
+header li a {
+    font-size: 20px;
+    color: #f09;
+    text-transform: uppercase;
+}
+
+.container {
+    padding: 0 10%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+    font-family: 'Courier Prime', monospace;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 70px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 26px;
+}
+
+h5 {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    margin: 0 0 20px 0;
+    line-height: 1.5;
+}
+
+section {
+    padding: 20px 0 20px 0;
+}
+
+.color-pink {
+    color: #f09;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.section-separator {
+    padding-top: 0;
+    padding-bottom: 0;
+}
